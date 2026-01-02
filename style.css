@@ -1,0 +1,46 @@
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+
+body{
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+}
+
+.card{
+    width: 500px;
+    margin: auto;
+}
+
+img{
+    width:70px;
+    
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.middle{
+    display: flex;
+    gap: 30px;
+}
+
+.middle input{
+    display: block;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color:rgb(208, 214, 219) ;
+}
+.footer{
+    text-align: center;
+}
+button{
+    padding: 6px 12px;
+    background-color: gray;
+    font-family: inherit;
+    cursor: pointer;
+}
